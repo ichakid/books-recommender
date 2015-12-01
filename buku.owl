@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -9,239 +19,388 @@
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <DataProperty IRI="#harga"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Michael_Indra"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Penerbit"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Esai"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Simple_Yoga"/>
+        <Class IRI="#Agama"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Aksi"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Misteri"/>
+        <Class IRI="#Anak-Anak"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BukuFiksi"/>
+        <Class IRI="#Asrama"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#jumlahHalaman"/>
+        <Class IRI="#Bandung"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+        <Class IRI="#Beladiri"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Fujiko_F_Fujio"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Harry_Potter"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Roman"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Horor"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Notasi_Lagu_Mozart"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Kue_Lezat_Minim_Alat"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Matematika_Diskrit"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#ditulis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Editor"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Amir_Amirudin"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#menjual"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Menggambar_Mudah_dengan_Pensil"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Komik"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Merajut"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sejarah"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Menggambar"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Humor"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Komputerisasi_Perusahaan_Dagang"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Twilight"/>
+        <Class IRI="#Biografi"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bisnis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Musik"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Elex_Media"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Penulis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Pendidikan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Wisata"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Psikologi"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Buku"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Filsafat"/>
+        <Class IRI="#BukuFiksi"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Genre"/>
+        <Class IRI="#BukuNonfiksi"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Doraemon"/>
+        <Class IRI="#Contemporary_Romance"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Ragam_Metode_Mengajarkan"/>
+        <Class IRI="#Detektif"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TokoBuku"/>
+        <Class IRI="#Editor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Esai"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fantasi"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Instansi"/>
+        <Class IRI="#Filsafat"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Danur"/>
+        <Class IRI="#Fotografi"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#dijual"/>
+        <Class IRI="#Genre"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Stephanie_Mayer"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#KumpulanPuisi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Akutansi_Perbankan_Syariah"/>
+        <Class IRI="#Historical_Romance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hobi"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Novel"/>
+        <Class IRI="#Horor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hukum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instansi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jakarta"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Kategori"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Kelompok"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Keluarga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kepercayaan_Diri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kesehatan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Koki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Komik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Komputer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kriminal_Tertata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kuliah"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#KumpulanCerpen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KumpulanPuisi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#London"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mata-Mata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Memasak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Menggambar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Merajut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Misteri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Misterii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#New_York"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Novel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Olahraga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pakaian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paranormal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pebalap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pemandu_sorak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pendidikan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Penerbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pengamen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Penulis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Penyanyi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pernikahan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pertemanan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petualangan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Populer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psikologi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rahasia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remaja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Romance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sejarah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Selebriti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sulap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Takdir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TokoBuku"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wisata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yatim_Piatu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Young_Adult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dijual"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diterbitkan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ditulis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#menerbitkan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#menjual"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#menulis"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#menyunting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fotografi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BukuNonfiksi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Sila_Ke-6_Sampai_Mati"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Biografi"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Komputer"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Oregades"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#My_Little_Monster"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Kesehatan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Agama"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#GPU"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Orang"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#diterbitkan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Bintang_Mika"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rahasia_Cantik_Bintang_Korea"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Hukum"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Jacq"/>
+        <DataProperty IRI="#harga"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#judul"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#menerbitkan"/>
+        <DataProperty IRI="#jumlahHalaman"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Memasak"/>
+        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#menulis"/>
+        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Akutansi_Perbankan_Syariah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amir_Amirudin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Biella"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Danur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doraemon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electric_Daisy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elex_Media"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fujiko_F_Fujio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jacq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Komputerisasi_Perusahaan_Dagang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kue_Lezat_Minim_Alat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matematika_Diskrit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Menggambar_Mudah_dengan_Pensil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Michael_Indra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#My_Little_Monster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Notasi_Lagu_Mozart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oregades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ragam_Metode_Mengajarkan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rahasia_Cantik_Bintang_Korea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sila_Ke-6_Sampai_Mati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simple_Yoga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Skip_Beat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stephanie_Mayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Selection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Treasure_Bird"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Twilight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Agama"/>
@@ -250,6 +409,22 @@
     <SubClassOf>
         <Class IRI="#Aksi"/>
         <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anak-Anak"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asrama"/>
+        <Class IRI="#School"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bandung"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beladiri"/>
+        <Class IRI="#Tag"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Biografi"/>
@@ -266,6 +441,14 @@
     <SubClassOf>
         <Class IRI="#BukuNonfiksi"/>
         <Class IRI="#Buku"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contemporary_Romance"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Detektif"/>
+        <Class IRI="#Misterii"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Editor"/>
@@ -288,6 +471,10 @@
         <Class IRI="#Hobi"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Historical_Romance"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Hobi"/>
         <Class IRI="#Kategori"/>
     </SubClassOf>
@@ -304,8 +491,28 @@
         <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Jakarta"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kelompok"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keluarga"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kepercayaan_Diri"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Kesehatan"/>
         <Class IRI="#Kategori"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Koki"/>
+        <Class IRI="#Tag"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Komik"/>
@@ -316,12 +523,28 @@
         <Class IRI="#Kategori"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Kriminal_Tertata"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kuliah"/>
+        <Class IRI="#School"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#KumpulanCerpen"/>
         <Class IRI="#BukuFiksi"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#KumpulanPuisi"/>
         <Class IRI="#BukuFiksi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#London"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mata-Mata"/>
+        <Class IRI="#Misterii"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Memasak"/>
@@ -340,12 +563,44 @@
         <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Misterii"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monster"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Musik"/>
         <Class IRI="#Hobi"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#New_York"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Novel"/>
         <Class IRI="#BukuFiksi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Olahraga"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pakaian"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paranormal"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pebalap"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pemandu_sorak"/>
+        <Class IRI="#Tag"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pendidikan"/>
@@ -356,20 +611,84 @@
         <Class IRI="#Instansi"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Pengamen"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Penulis"/>
         <Class IRI="#Orang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Penyanyi"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pernikahan"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pertemanan"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petualangan"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Populer"/>
+        <Class IRI="#Tag"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Psikologi"/>
         <Class IRI="#Kategori"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Rahasia"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remaja"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Roman"/>
         <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Romance"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SD"/>
+        <Class IRI="#School"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMA"/>
+        <Class IRI="#School"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMP"/>
+        <Class IRI="#School"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sejarah"/>
         <Class IRI="#Kategori"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Selebriti"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sulap"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Takdir"/>
+        <Class IRI="#Tag"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TokoBuku"/>
@@ -379,6 +698,30 @@
         <Class IRI="#Wisata"/>
         <Class IRI="#Hobi"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yatim_Piatu"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Young_Adult"/>
+        <Class IRI="#Tag"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#BukuNonfiksi"/>
+        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wisata"/>
+        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BukuNonfiksi"/>
+        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Merajut"/>
+        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Agama"/>
         <NamedIndividual IRI="#Akutansi_Perbankan_Syariah"/>
@@ -392,11 +735,87 @@
         <NamedIndividual IRI="#Amir_Amirudin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Beladiri"/>
+        <NamedIndividual IRI="#Biella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fantasi"/>
+        <NamedIndividual IRI="#Biella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keluarga"/>
+        <NamedIndividual IRI="#Biella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Monster"/>
+        <NamedIndividual IRI="#Biella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Novel"/>
+        <NamedIndividual IRI="#Biella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#Biella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Petualangan"/>
+        <NamedIndividual IRI="#Biella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remaja"/>
+        <NamedIndividual IRI="#Biella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMA"/>
+        <NamedIndividual IRI="#Biella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bandung"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keluarga"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Novel"/>
         <NamedIndividual IRI="#Bintang_Mika"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Pengamen"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Penyanyi"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Populer"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rahasia"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remaja"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Roman"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMA"/>
+        <NamedIndividual IRI="#Bintang_Mika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yatim_Piatu"/>
         <NamedIndividual IRI="#Bintang_Mika"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -408,7 +827,31 @@
         <NamedIndividual IRI="#Danur"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Keluarga"/>
+        <NamedIndividual IRI="#Danur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paranormal"/>
+        <NamedIndividual IRI="#Danur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Takdir"/>
+        <NamedIndividual IRI="#Danur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yatim_Piatu"/>
+        <NamedIndividual IRI="#Danur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anak-Anak"/>
+        <NamedIndividual IRI="#Doraemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Humor"/>
+        <NamedIndividual IRI="#Doraemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kepercayaan_Diri"/>
         <NamedIndividual IRI="#Doraemon"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -416,8 +859,60 @@
         <NamedIndividual IRI="#Doraemon"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#Doraemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Petualangan"/>
+        <NamedIndividual IRI="#Doraemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SD"/>
+        <NamedIndividual IRI="#Doraemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keluarga"/>
+        <NamedIndividual IRI="#Electric_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Komik"/>
+        <NamedIndividual IRI="#Electric_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kriminal_Tertata"/>
+        <NamedIndividual IRI="#Electric_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Misteri"/>
+        <NamedIndividual IRI="#Electric_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#Electric_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rahasia"/>
+        <NamedIndividual IRI="#Electric_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMA"/>
+        <NamedIndividual IRI="#Electric_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yatim_Piatu"/>
+        <NamedIndividual IRI="#Electric_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Penerbit"/>
         <NamedIndividual IRI="#Elex_Media"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bisnis"/>
+        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BukuNonfiksi"/>
+        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Penulis"/>
@@ -458,6 +953,58 @@
     <ClassAssertion>
         <Class IRI="#Memasak"/>
         <NamedIndividual IRI="#Kue_Lezat_Minim_Alat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fantasi"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kelompok"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keluarga"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kepercayaan_Diri"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Komik"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Novel"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Penyanyi"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Populer"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rahasia"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remaja"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMA"/>
+        <NamedIndividual IRI="#Love_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Selebriti"/>
+        <NamedIndividual IRI="#Love_Lies"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BukuNonfiksi"/>
@@ -504,12 +1051,112 @@
         <NamedIndividual IRI="#Oregades"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Beladiri"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detektif"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kelompok"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keluarga"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kriminal_Tertata"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kuliah"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mata-Mata"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Misteri"/>
         <NamedIndividual IRI="#Oregades"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Novel"/>
         <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rahasia"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remaja"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMA"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yatim_Piatu"/>
+        <NamedIndividual IRI="#Oregades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kelompok"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keluarga"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kepercayaan_Diri"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kriminal_Tertata"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mata-Mata"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Misteri"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Novel"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Petualangan"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Populer"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rahasia"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remaja"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMA"/>
+        <NamedIndividual IRI="#Pretty_Little_Liars"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BukuNonfiksi"/>
@@ -544,15 +1191,135 @@
         <NamedIndividual IRI="#Simple_Yoga"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Kepercayaan_Diri"/>
+        <NamedIndividual IRI="#Skip_Beat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Komik"/>
+        <NamedIndividual IRI="#Skip_Beat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Penyanyi"/>
+        <NamedIndividual IRI="#Skip_Beat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#Skip_Beat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Populer"/>
+        <NamedIndividual IRI="#Skip_Beat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rahasia"/>
+        <NamedIndividual IRI="#Skip_Beat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Selebriti"/>
+        <NamedIndividual IRI="#Skip_Beat"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Penulis"/>
         <NamedIndividual IRI="#Stephanie_Mayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asrama"/>
+        <NamedIndividual IRI="#The_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kelompok"/>
+        <NamedIndividual IRI="#The_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kepercayaan_Diri"/>
+        <NamedIndividual IRI="#The_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Novel"/>
+        <NamedIndividual IRI="#The_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#The_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Populer"/>
+        <NamedIndividual IRI="#The_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remaja"/>
+        <NamedIndividual IRI="#The_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMA"/>
+        <NamedIndividual IRI="#The_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Selebriti"/>
+        <NamedIndividual IRI="#The_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anak-Anak"/>
+        <NamedIndividual IRI="#The_Treasure_Bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keluarga"/>
+        <NamedIndividual IRI="#The_Treasure_Bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Misteri"/>
+        <NamedIndividual IRI="#The_Treasure_Bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Novel"/>
+        <NamedIndividual IRI="#The_Treasure_Bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pertemanan"/>
+        <NamedIndividual IRI="#The_Treasure_Bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SD"/>
+        <NamedIndividual IRI="#The_Treasure_Bird"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Fantasi"/>
         <NamedIndividual IRI="#Twilight"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Kelompok"/>
+        <NamedIndividual IRI="#Twilight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keluarga"/>
+        <NamedIndividual IRI="#Twilight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Monster"/>
+        <NamedIndividual IRI="#Twilight"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Novel"/>
+        <NamedIndividual IRI="#Twilight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paranormal"/>
+        <NamedIndividual IRI="#Twilight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pernikahan"/>
+        <NamedIndividual IRI="#Twilight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rahasia"/>
+        <NamedIndividual IRI="#Twilight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remaja"/>
+        <NamedIndividual IRI="#Twilight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SMA"/>
         <NamedIndividual IRI="#Twilight"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -563,30 +1330,16 @@
         <Class IRI="#Hukum"/>
         <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
     </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#BukuNonfiksi"/>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ditulis"/>
         <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Wisata"/>
-        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#BukuNonfiksi"/>
+        <NamedIndividual IRI="#Amir_Amirudin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ditulis"/>
         <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Merajut"/>
-        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Bisnis"/>
-        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#BukuNonfiksi"/>
-        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-    </ClassAssertion>
+        <NamedIndividual IRI="#Amir_Amirudin"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ditulis"/>
         <NamedIndividual IRI="#Akutansi_Perbankan_Syariah"/>
@@ -595,12 +1348,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#menulis"/>
         <NamedIndividual IRI="#Amir_Amirudin"/>
-        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#menulis"/>
         <NamedIndividual IRI="#Amir_Amirudin"/>
-        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
+        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ditulis"/>
+        <NamedIndividual IRI="#Biella"/>
+        <NamedIndividual IRI="#Jacq"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#diterbitkan"/>
@@ -619,6 +1377,16 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#menulis"/>
+        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+        <NamedIndividual IRI="#Akutansi_Perbankan_Syariah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menulis"/>
+        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menulis"/>
         <NamedIndividual IRI="#Fujiko_F_Fujio"/>
         <NamedIndividual IRI="#Doraemon"/>
     </ObjectPropertyAssertion>
@@ -626,11 +1394,6 @@
         <ObjectProperty IRI="#menulis"/>
         <NamedIndividual IRI="#Jacq"/>
         <NamedIndividual IRI="#Bintang_Mika"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#menulis"/>
-        <NamedIndividual IRI="#Jacq"/>
-        <NamedIndividual IRI="#Danur"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#menulis"/>
@@ -672,340 +1435,320 @@
         <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
         <NamedIndividual IRI="#Michael_Indra"/>
     </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ditulis"/>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
         <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-        <NamedIndividual IRI="#Amir_Amirudin"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ditulis"/>
+        <Literal datatypeIRI="&xsd;int">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+        <Literal datatypeIRI="&xsd;string">2.5 Juta Jalan-jalan Ke Jepang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+        <Literal datatypeIRI="&xsd;int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
         <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
-        <NamedIndividual IRI="#Amir_Amirudin"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#menulis"/>
-        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <NamedIndividual IRI="#Akutansi_Perbankan_Syariah"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#menulis"/>
-        <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
-    </ObjectPropertyAssertion>
+        <Literal datatypeIRI="&xsd;int">25000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
+        <Literal datatypeIRI="&xsd;int">30 Hari Mahir Merajut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
+        <Literal datatypeIRI="&xsd;int">100</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#harga"/>
         <NamedIndividual IRI="#Akutansi_Perbankan_Syariah"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100000</Literal>
+        <Literal datatypeIRI="&xsd;int">100000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#judul"/>
         <NamedIndividual IRI="#Akutansi_Perbankan_Syariah"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Akutansi Perbankan Syariah</Literal>
+        <Literal datatypeIRI="&xsd;string">Akutansi Perbankan Syariah</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#jumlahHalaman"/>
         <NamedIndividual IRI="#Akutansi_Perbankan_Syariah"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
+        <Literal datatypeIRI="&xsd;int">200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#harga"/>
         <NamedIndividual IRI="#Bintang_Mika"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">38000</Literal>
+        <Literal datatypeIRI="&xsd;int">38000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#judul"/>
         <NamedIndividual IRI="#Bintang_Mika"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bintang Mika</Literal>
+        <Literal datatypeIRI="&xsd;string">Bintang Mika</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#jumlahHalaman"/>
         <NamedIndividual IRI="#Bintang_Mika"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">288</Literal>
+        <Literal datatypeIRI="&xsd;int">288</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#harga"/>
         <NamedIndividual IRI="#Danur"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50000</Literal>
+        <Literal datatypeIRI="&xsd;int">50000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#judul"/>
         <NamedIndividual IRI="#Danur"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Danur</Literal>
+        <Literal datatypeIRI="&xsd;string">Danur</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#jumlahHalaman"/>
         <NamedIndividual IRI="#Danur"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
+        <Literal datatypeIRI="&xsd;int">200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#harga"/>
         <NamedIndividual IRI="#Doraemon"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20000</Literal>
+        <Literal datatypeIRI="&xsd;int">20000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#judul"/>
         <NamedIndividual IRI="#Doraemon"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Doraemon</Literal>
+        <Literal datatypeIRI="&xsd;string">Doraemon</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#jumlahHalaman"/>
         <NamedIndividual IRI="#Doraemon"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">150</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Harry_Potter"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Harry_Potter"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Harry Potter</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Harry_Potter"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1200</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Komputerisasi_Perusahaan_Dagang"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">32000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Komputerisasi_Perusahaan_Dagang"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Komputerisasi Perusahaan Dagang</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Komputerisasi_Perusahaan_Dagang"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">350</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Kue_Lezat_Minim_Alat"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">33000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Kue_Lezat_Minim_Alat"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kue Lezat Minim Alat</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Kue_Lezat_Minim_Alat"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Matematika_Diskrit"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">55000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Matematika_Diskrit"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Matematika Diskrit</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Matematika_Diskrit"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">550</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Menggambar_Mudah_dengan_Pensil"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">75000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Menggambar_Mudah_dengan_Pensil"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Menggambar Mudah dengan Pensil</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Menggambar_Mudah_dengan_Pensil"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">135</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#My_Little_Monster"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#My_Little_Monster"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">My Little Monster</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#My_Little_Monster"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">150</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Notasi_Lagu_Mozart"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Notasi_Lagu_Mozart"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Notasi Lagu Mozart</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Notasi_Lagu_Mozart"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Oregades"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Oregades"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Oregades</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Oregades"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">176</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Ragam_Metode_Mengajarkan"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">32300</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Ragam_Metode_Mengajarkan"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ragam Metode Mengajarkan</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Ragam_Metode_Mengajarkan"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Rahasia_Cantik_Bintang_Korea"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Rahasia_Cantik_Bintang_Korea"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rahasia Cantik Bintang Korea</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Rahasia_Cantik_Bintang_Korea"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">129</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Sila_Ke-6_Sampai_Mati"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Sila_Ke-6_Sampai_Mati"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sila Ke-6 Sampai Mati</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Sila_Ke-6_Sampai_Mati"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Simple_Yoga"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Simple_Yoga"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Simple Yoga</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Simple_Yoga"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Twilight"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">75000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Twilight"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Twilight</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Twilight"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">42000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Undang-Undang Perdagangan Baru</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">500</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2.5 Juta Jalan-jalan Ke Jepang</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#harga"/>
-        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#judul"/>
-        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30 Hari Mahir Merajut</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#jumlahHalaman"/>
-        <NamedIndividual IRI="#30_Hari_Mahir_Merajut"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+        <Literal datatypeIRI="&xsd;int">150</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#harga"/>
         <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
+        <Literal datatypeIRI="&xsd;int">40000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#judul"/>
         <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eo:7 Langkah Jitu Membangun Bisnis Eo</Literal>
+        <Literal datatypeIRI="&xsd;string">Eo:7 Langkah Jitu Membangun Bisnis Eo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#jumlahHalaman"/>
         <NamedIndividual IRI="#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
+        <Literal datatypeIRI="&xsd;int">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <Literal datatypeIRI="&xsd;int">90000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <Literal datatypeIRI="&xsd;string">Harry Potter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <Literal datatypeIRI="&xsd;int">1200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Komputerisasi_Perusahaan_Dagang"/>
+        <Literal datatypeIRI="&xsd;int">32000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Komputerisasi_Perusahaan_Dagang"/>
+        <Literal datatypeIRI="&xsd;string">Komputerisasi Perusahaan Dagang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Komputerisasi_Perusahaan_Dagang"/>
+        <Literal datatypeIRI="&xsd;int">350</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Kue_Lezat_Minim_Alat"/>
+        <Literal datatypeIRI="&xsd;int">33000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Kue_Lezat_Minim_Alat"/>
+        <Literal datatypeIRI="&xsd;string">Kue Lezat Minim Alat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Kue_Lezat_Minim_Alat"/>
+        <Literal datatypeIRI="&xsd;int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Matematika_Diskrit"/>
+        <Literal datatypeIRI="&xsd;int">55000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Matematika_Diskrit"/>
+        <Literal datatypeIRI="&xsd;string">Matematika Diskrit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Matematika_Diskrit"/>
+        <Literal datatypeIRI="&xsd;int">550</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Menggambar_Mudah_dengan_Pensil"/>
+        <Literal datatypeIRI="&xsd;int">75000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Menggambar_Mudah_dengan_Pensil"/>
+        <Literal datatypeIRI="&xsd;string">Menggambar Mudah dengan Pensil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Menggambar_Mudah_dengan_Pensil"/>
+        <Literal datatypeIRI="&xsd;int">135</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#My_Little_Monster"/>
+        <Literal datatypeIRI="&xsd;int">20000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#My_Little_Monster"/>
+        <Literal datatypeIRI="&xsd;string">My Little Monster</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#My_Little_Monster"/>
+        <Literal datatypeIRI="&xsd;string">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Notasi_Lagu_Mozart"/>
+        <Literal datatypeIRI="&xsd;int">90000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Notasi_Lagu_Mozart"/>
+        <Literal datatypeIRI="&xsd;string">Notasi Lagu Mozart</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Notasi_Lagu_Mozart"/>
+        <Literal datatypeIRI="&xsd;int">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Oregades"/>
+        <Literal datatypeIRI="&xsd;int">35000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Oregades"/>
+        <Literal datatypeIRI="&xsd;string">Oregades</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Oregades"/>
+        <Literal datatypeIRI="&xsd;int">176</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Ragam_Metode_Mengajarkan"/>
+        <Literal datatypeIRI="&xsd;int">32300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Ragam_Metode_Mengajarkan"/>
+        <Literal datatypeIRI="&xsd;string">Ragam Metode Mengajarkan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Ragam_Metode_Mengajarkan"/>
+        <Literal datatypeIRI="&xsd;int">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Rahasia_Cantik_Bintang_Korea"/>
+        <Literal datatypeIRI="&xsd;int">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Rahasia_Cantik_Bintang_Korea"/>
+        <Literal datatypeIRI="&xsd;string">Rahasia Cantik Bintang Korea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Rahasia_Cantik_Bintang_Korea"/>
+        <Literal datatypeIRI="&xsd;int">129</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Sila_Ke-6_Sampai_Mati"/>
+        <Literal datatypeIRI="&xsd;int">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Sila_Ke-6_Sampai_Mati"/>
+        <Literal datatypeIRI="&xsd;string">Sila Ke-6 Sampai Mati</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Sila_Ke-6_Sampai_Mati"/>
+        <Literal datatypeIRI="&xsd;int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Simple_Yoga"/>
+        <Literal datatypeIRI="&xsd;int">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Simple_Yoga"/>
+        <Literal datatypeIRI="&xsd;string">Simple Yoga</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Simple_Yoga"/>
+        <Literal datatypeIRI="&xsd;int">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Twilight"/>
+        <Literal datatypeIRI="&xsd;int">75000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Twilight"/>
+        <Literal datatypeIRI="&xsd;string">Twilight</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Twilight"/>
+        <Literal datatypeIRI="&xsd;int">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harga"/>
+        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
+        <Literal datatypeIRI="&xsd;int">42000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#judul"/>
+        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
+        <Literal datatypeIRI="&xsd;string">Undang-Undang Perdagangan Baru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jumlahHalaman"/>
+        <NamedIndividual IRI="#Undang-Undang_Perdagangan_Baru"/>
+        <Literal datatypeIRI="&xsd;int">500</Literal>
     </DataPropertyAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#dijual"/>
@@ -1016,8 +1759,8 @@
         <ObjectProperty IRI="#menerbitkan"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#ditulis"/>
         <ObjectProperty IRI="#menulis"/>
+        <ObjectProperty IRI="#ditulis"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#diterbitkan"/>
@@ -1099,5 +1842,4 @@
 
 
 
-<!-- Generated by the OWL API (version 4.1.2.20151107-1355) https://github.com/owlcs/owlapi -->
-
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
