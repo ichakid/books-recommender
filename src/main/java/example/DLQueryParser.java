@@ -11,8 +11,9 @@ package example;
  * Bio-Health Informatics Group<br>
  * Date: 13-May-2010
  */
+import org.coode.owlapi.manchesterowlsyntax.ManchesterOWLSyntaxEditorParser;
 import org.semanticweb.owlapi.expression.OWLEntityChecker;
-import org.semanticweb.owlapi.manchestersyntax.renderer.ParserException;
+import org.semanticweb.owlapi.expression.ParserException;
 import org.semanticweb.owlapi.expression.ShortFormEntityChecker;
 import org.semanticweb.owlapi.model.OWLClassExpression;
 import org.semanticweb.owlapi.model.OWLDataFactory;
@@ -50,15 +51,15 @@ public class DLQueryParser {
      * @return The corresponding class expression
      * @throws ParserException if the class expression string is malformed or contains unknown entity names.
      */
-//    public OWLClassExpression parseClassExpression(String classExpressionString) throws ParserException {
-//        OWLDataFactory dataFactory = rootOntology.getOWLOntologyManager().getOWLDataFactory();
-//        // Set up the real parser
-//        ManchesterOWLSyntaxEditorParser parser = new ManchesterOWLSyntaxEditorParser(dataFactory, classExpressionString);
-//        parser.setDefaultOntology(rootOntology);
-//        // Specify an entity checker that wil be used to check a class expression contains the correct names.
-//        OWLEntityChecker entityChecker = new ShortFormEntityChecker(bidiShortFormProvider);
-//        parser.setOWLEntityChecker(entityChecker);
-//        // Do the actual parsing
-//        return parser.parseClassExpression();
-//    }
+    public OWLClassExpression parseClassExpression(String classExpressionString) throws ParserException {
+        OWLDataFactory dataFactory = rootOntology.getOWLOntologyManager().getOWLDataFactory();
+        // Set up the real parser
+        ManchesterOWLSyntaxEditorParser parser = new ManchesterOWLSyntaxEditorParser(dataFactory, classExpressionString);
+        parser.setDefaultOntology(rootOntology);
+        // Specify an entity checker that wil be used to check a class expression contains the correct names.
+        OWLEntityChecker entityChecker = new ShortFormEntityChecker(bidiShortFormProvider);
+        parser.setOWLEntityChecker(entityChecker);
+        // Do the actual parsing
+        return parser.parseClassExpression();
+    }
 }

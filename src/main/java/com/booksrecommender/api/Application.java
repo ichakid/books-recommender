@@ -16,7 +16,10 @@ import org.semanticweb.owlapi.model.OWLOntologyStorageException;
  * @author Arina Listyarini DA
  */
 public class Application {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws OWLOntologyStorageException {
+        OWLAccessor bookOntology = new OWLAccessor();
+        String username = "Dammie";
+        
         System.out.println("===========================");
         System.out.println("Rekomendasi Buku");
         System.out.println("===========================");
@@ -24,26 +27,26 @@ public class Application {
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
         
-        List<Buku> rekomendasiBuku = new ArrayList<>();
-        rekomendasiBuku.add(new Buku("Twilight",200,"Stephenie Meyer"));
-        rekomendasiBuku.add(new Buku("Bubu Caca Bubabu",250,"Caca Marica"));
-        rekomendasiBuku.add(new Buku("Hai Miiko",150,"Ono Eriko"));
+        System.out.println("---");
+        System.out.println("Hasil pencarian:");
+        List<Buku> hasilBuku = bookOntology.findBook(input);
+        int i=1;
+        for (Buku buku: hasilBuku) {
+            System.out.println(i + ". " + buku.getJudul() + " oleh " + buku.getPenulis() + " || " + buku.getJumlahHalaman() + " halaman");
+            i++;
+        }
         
         System.out.println("---");
-        System.out.println("Buku yang anda masukkan adalah " + input);
+        System.out.println("Buku yang anda sudah baca adalah: "); input = scan.nextLine();
+        bookOntology.saveBook(username, hasilBuku.get(Integer.parseInt(input)).getName());
+        
+        System.out.println("---");
+        List<Buku> rekomendasiBuku = bookOntology.recommend(username);
         System.out.println("Buku-buku rekomendasi untuk dibaca selanjutnya yaitu:");
-        for(int i = 0; i < rekomendasiBuku.size(); i++) {
-            System.out.println(i+1 + ". " + rekomendasiBuku.get(i).getJudul() + " oleh " + rekomendasiBuku.get(i).getPenulis() + " || " + rekomendasiBuku.get(i).getJumlahHalaman() + " halaman");
+        i=1;
+        for (Buku buku: rekomendasiBuku) {
+            System.out.println(i + ". " + buku.getJudul() + " oleh " + buku.getPenulis() + " || " + buku.getJumlahHalaman() + " halaman");
+            i++;
         }
-        
-        System.out.println("===========================");
-        
-        OWLAccessor bookOntology = new OWLAccessor();
-        try {
-            bookOntology.saveBook("Dammie", "Doraemon");
-        } catch (OWLOntologyStorageException ex) {
-            Logger.getLogger(Application.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        bookOntology.showClasses();
     }    
 }

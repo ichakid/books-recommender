@@ -11,7 +11,7 @@ package example;
  * Bio-Health Informatics Group<br>
  * Date: 13-May-2010
  */
-
+import org.semanticweb.owlapi.expression.ParserException;
 import org.semanticweb.owlapi.model.*;
 import org.semanticweb.owlapi.reasoner.Node;
 import org.semanticweb.owlapi.reasoner.NodeSet;
@@ -20,7 +20,6 @@ import org.semanticweb.owlapi.util.ShortFormProvider;
 
 import java.util.Collections;
 import java.util.Set;
-import org.semanticweb.owlapi.manchestersyntax.renderer.ParserException;
 
 public class DLQueryEngine {
     private OWLReasoner reasoner;

@@ -5,15 +5,20 @@
  */
 package com.booksrecommender.api;
 
+import example.DLQueryEngine;
 import java.io.File;
-import java.util.Collections;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.semanticweb.HermiT.Reasoner;
 import org.semanticweb.owlapi.apibinding.OWLManager;
-import org.semanticweb.owlapi.manchestersyntax.renderer.ParserException;
 import org.semanticweb.owlapi.model.*;
-import static org.semanticweb.owlapi.model.IRI.create;
+import org.semanticweb.owlapi.reasoner.OWLReasoner;
+import org.semanticweb.owlapi.reasoner.OWLReasonerFactory;
+import org.semanticweb.owlapi.util.ShortFormProvider;
+import org.semanticweb.owlapi.util.SimpleShortFormProvider;
 /**
  *
  * @author Choirunnisa Fatima
@@ -23,6 +28,7 @@ public class OWLAccessor {
     private OWLOntologyManager manager;
     private OWLOntology ontology;
     private OWLDataFactory df;
+    private OWLReasoner reasoner;
     
     public OWLAccessor() {
         try {
@@ -30,6 +36,9 @@ public class OWLAccessor {
             manager = OWLManager.createOWLOntologyManager();
             df = manager.getOWLDataFactory();
             ontology = manager.loadOntologyFromOntologyDocument(new File(pathOWL));
+            
+            OWLReasonerFactory reasonerFactory = new Reasoner.ReasonerFactory();
+            reasoner = reasonerFactory.createReasoner(ontology);
         } catch (OWLOntologyCreationException ex) {
             Logger.getLogger(OWLAccessor.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -41,19 +50,39 @@ public class OWLAccessor {
         }
     }
     
-    public void saveBook(String username, String title) throws OWLOntologyStorageException {
-        /*System.out.println(ontology.getAnnotationAssertionAxioms());*/
-        /*IRI example_iri = manager.getOntologyDocumentIRI(ontology);*/
+    public List<Buku> findBook (String title) {
+        String query = "";
+        return ask(query);
+    }
+    
+    public void saveBook(String username, String name) throws OWLOntologyStorageException {
         String example_iri = "http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7";
         OWLIndividual user = df.getOWLNamedIndividual(IRI.create(example_iri + "#" + username));
-        OWLIndividual bookOwl = df.getOWLNamedIndividual(IRI.create(example_iri + "#" + title));
-        // We need the hasFather property
+        OWLIndividual bookOwl = df.getOWLNamedIndividual(IRI.create(example_iri + "#" + name));
         OWLObjectProperty hasFather = df.getOWLObjectProperty(IRI.create(example_iri + "#hasRead"));
-        // matthew -> hasFather -> peter
         OWLObjectPropertyAssertionAxiom assertion = df.getOWLObjectPropertyAssertionAxiom(hasFather, user, bookOwl);
-        // Finally, add the axiom to outsahr ontology
         AddAxiom addAxiomChange = new AddAxiom(ontology, assertion);
         manager.applyChange(addAxiomChange);
         manager.saveOntology(ontology, IRI.create(new File(pathOWL)));
+    }
+    
+    public List<Buku> recommend(String username){
+        String query = "Buku and hasTag min 1 (Tag and inverse hasTag some (Buku and inverse hasRead some (User and (username value \""+ username + "\"))))";
+        return ask(query);
+    }
+    
+    private List<Buku> ask(String query){
+        ShortFormProvider shortFormProvider = new SimpleShortFormProvider();
+        DLQueryEngine dlQueryEngine = new DLQueryEngine(reasoner, shortFormProvider);
+        Set<OWLNamedIndividual> individuals = dlQueryEngine.getInstances(query.trim(), true);
+        List<Buku> books = new ArrayList();
+        for (OWLNamedIndividual individual: individuals) {
+            String name = shortFormProvider.getShortForm(individual);
+            String judul;
+            int jumlahHalaman;
+            String penulis;
+//            books.add(new Buku(name, judul, jumlahHalaman, penulis));
+        }
+        return books;
     }
 }

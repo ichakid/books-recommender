@@ -11,14 +11,20 @@ package com.booksrecommender.api;
  * @author Arina Listyarini DA
  */
 public class Buku {
+    private String name;
     private String judul;
     private int jumlahHalaman;
     private String penulis;
-
-    public Buku(String judul, int jumlahHalaman, String penulis) {
+    
+    public Buku(String name, String judul, int jumlahHalaman, String penulis) {
+        this.name = name;
         this.judul = judul;
         this.jumlahHalaman = jumlahHalaman;
         this.penulis = penulis;
+    }
+    
+    public String getName() {
+        return name;
     }
 
     public String getJudul() {
