@@ -7,8 +7,6 @@
 package com.booksrecommender.api;
 import java.util.*;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 
 /**
@@ -17,9 +15,6 @@ import org.semanticweb.owlapi.model.OWLOntologyStorageException;
  */
 public class Application {
     public static void main(String[] args) throws OWLOntologyStorageException {
-        OWLAccessor bookOntology = new OWLAccessor();
-        String username = "Dammie";
-        
         System.out.println("===========================");
         System.out.println("Rekomendasi Buku");
         System.out.println("===========================");

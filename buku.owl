@@ -1,20 +1,10 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE Ontology [
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.semanticweb.org/asus/ontologies/2015/11/untitled-ontology-14"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/asus/ontologies/2015/11/untitled-ontology-14">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -340,12 +330,6 @@
         <NamedIndividual IRI="#Yoshiki"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Akutansi_Perbankan_Syariah"/>
     </Declaration>
     <Declaration>
@@ -389,9 +373,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Elex_Media"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Fujiko_F_Fujio"/>
@@ -566,6 +547,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Yatim_Piatu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Agama"/>
@@ -915,22 +905,6 @@
         <NamedIndividual IRI="#Yoshiki"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#BukuNonfiksi"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Wisata"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#BukuNonfiksi"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Merajut"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Agama"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Akutansi_Perbankan_Syariah"/>
     </ClassAssertion>
@@ -1141,14 +1115,6 @@
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Penerbit"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Elex_Media"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bisnis"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#BukuNonfiksi"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Penulis"/>
@@ -1702,16 +1668,30 @@
         <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Tag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Yatim_Piatu"/>
     </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#BukuNonfiksi"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Amir_Amirudin"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Wisata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#BukuNonfiksi"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Amir_Amirudin"/>
-    </ObjectPropertyAssertion>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Merajut"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bisnis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#BukuNonfiksi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Akutansi_Perbankan_Syariah"/>
@@ -1720,12 +1700,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Amir_Amirudin"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Amir_Amirudin"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
@@ -1750,22 +1730,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bintang_Mika"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Beladiri"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bandung"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bintang_Mika"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bandung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Beladiri"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasRead"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Dammie"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bintang_Mika"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasRead"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Dammie"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Doraemon"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasRead"/>
@@ -1773,14 +1748,9 @@
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kue_Lezat_Minim_Alat"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Danur"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Paranormal"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Danur"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Keluarga"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasRead"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Dammie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Doraemon"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -1793,19 +1763,19 @@
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Yatim_Piatu"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Danur"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Keluarga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Danur"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Paranormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Doraemon"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Fujiko_F_Fujio"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Akutansi_Perbankan_Syariah"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Undang-Undang_Perdagangan_Baru"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
@@ -1820,22 +1790,37 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Sulap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Petualangan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Misteri"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Anak-Anak"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Yatim_Piatu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Asrama"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Populer"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Takdir"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -1855,22 +1840,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Asrama"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#School"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Petualangan"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Sulap"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Takdir"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -1885,12 +1860,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SD"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Yatim_Piatu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Anak-Anak"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
@@ -1920,22 +1890,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#My_Little_Monster"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#My_Little_Monster"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Populer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#My_Little_Monster"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Petualangan"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#My_Little_Monster"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Remaja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#My_Little_Monster"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -1950,7 +1920,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#My_Little_Monster"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Petualangan"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#diterbitkan"/>
@@ -1965,37 +1935,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kuliah"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Misteri"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Remaja"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Detektif"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kelompok"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#School"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SMA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kriminal_Tertata"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2005,17 +1950,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Yatim_Piatu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Mata-Mata"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Keluarga"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Detektif"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2025,12 +1965,42 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kriminal_Tertata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kuliah"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Mata-Mata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Yatim_Piatu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kelompok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#School"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Remaja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Keluarga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SMA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
@@ -2040,7 +2010,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kelompok"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2050,12 +2020,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Keluarga"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Remaja"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SMA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Keluarga"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2065,17 +2040,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kepercayaan_Diri"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Populer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Misteri"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2085,17 +2055,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SMA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kelompok"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Misteri"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pretty_Little_Liars"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Remaja"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Populer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2110,6 +2080,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Skip_Beat"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Skip_Beat"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kepercayaan_Diri"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -2120,22 +2095,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Skip_Beat"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Populer"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Skip_Beat"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Skip_Beat"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Penyanyi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Populer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Skip_Beat"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Penyanyi"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
@@ -2145,12 +2115,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Selection"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SMA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Selection"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kepercayaan_Diri"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Populer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Selection"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#School"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2161,11 +2136,6 @@
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Selection"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Selebriti"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Selection"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#School"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2175,17 +2145,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Selection"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SMA"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Selection"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Populer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kepercayaan_Diri"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Selection"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Remaja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Treasure_Bird"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Treasure_Bird"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Keluarga"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2195,12 +2175,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Treasure_Bird"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SD"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Treasure_Bird"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pertemanan"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#School"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2210,12 +2185,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Treasure_Bird"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#School"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#The_Treasure_Bird"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Keluarga"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SD"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
@@ -2225,7 +2195,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SMA"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pernikahan"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2235,7 +2205,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#School"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#SMA"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2245,22 +2215,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Pernikahan"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Keluarga"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Remaja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#School"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#hasTag"/>
@@ -2272,377 +2242,397 @@
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Undang-Undang_Perdagangan_Baru"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Michael_Indra"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Amir_Amirudin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Amir_Amirudin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Akutansi_Perbankan_Syariah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Undang-Undang_Perdagangan_Baru"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nama"/>
         <NamedIndividual IRI="#Chehe"/>
-        <Literal datatypeIRI="&xsd;string">Sara Shepard</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sara Shepard</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nama"/>
         <NamedIndividual IRI="#J_K_Rowling"/>
-        <Literal datatypeIRI="&xsd;string">J. K. Rowling</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">J. K. Rowling</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nama"/>
         <NamedIndividual IRI="#Robico"/>
-        <Literal datatypeIRI="&xsd;string">Robico</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Robico</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nama"/>
         <NamedIndividual IRI="#Yoshiki"/>
-        <Literal datatypeIRI="&xsd;string">Yoshiki</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-        <Literal datatypeIRI="&xsd;int">50000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-        <Literal datatypeIRI="&xsd;string">2.5 Juta Jalan-jalan Ke Jepang</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
-        <Literal datatypeIRI="&xsd;int">100</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
-        <Literal datatypeIRI="&xsd;int">25000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
-        <Literal datatypeIRI="&xsd;string">30 Hari Mahir Merajut</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
-        <Literal datatypeIRI="&xsd;int">100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Yoshiki</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Akutansi_Perbankan_Syariah"/>
-        <Literal datatypeIRI="&xsd;int">100000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Akutansi_Perbankan_Syariah"/>
-        <Literal datatypeIRI="&xsd;string">Akutansi Perbankan Syariah</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Akutansi Perbankan Syariah</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Akutansi_Perbankan_Syariah"/>
-        <Literal datatypeIRI="&xsd;int">200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nama"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Amir_Amirudin"/>
-        <Literal datatypeIRI="&xsd;string">Amir Amirudin</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Amir Amirudin</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bintang_Mika"/>
-        <Literal datatypeIRI="&xsd;int">38000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">38000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bintang_Mika"/>
-        <Literal datatypeIRI="&xsd;string">Bintang Mika</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bintang Mika</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Bintang_Mika"/>
-        <Literal datatypeIRI="&xsd;int">288</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">288</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#username"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Dammie"/>
-        <Literal datatypeIRI="&xsd;string">Dammie</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dammie</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Danur"/>
-        <Literal datatypeIRI="&xsd;int">50000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Danur"/>
-        <Literal datatypeIRI="&xsd;string">Danur</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Danur</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Danur"/>
-        <Literal datatypeIRI="&xsd;int">200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Doraemon"/>
-        <Literal datatypeIRI="&xsd;int">20000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Doraemon"/>
-        <Literal datatypeIRI="&xsd;string">Doraemon</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Doraemon</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Doraemon"/>
-        <Literal datatypeIRI="&xsd;int">150</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <Literal datatypeIRI="&xsd;int">40000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <Literal datatypeIRI="&xsd;string">Eo:7 Langkah Jitu Membangun Bisnis Eo</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
-        <Literal datatypeIRI="&xsd;int">200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">150</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <Literal datatypeIRI="&xsd;int">90000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <Literal datatypeIRI="&xsd;string">Harry Potter</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Harry Potter</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Harry_Potter"/>
-        <Literal datatypeIRI="&xsd;int">1200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nama"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Jacq"/>
-        <Literal datatypeIRI="&xsd;string">Jacq</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jacq</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Komputerisasi_Perusahaan_Dagang"/>
-        <Literal datatypeIRI="&xsd;int">32000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">32000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Komputerisasi_Perusahaan_Dagang"/>
-        <Literal datatypeIRI="&xsd;string">Komputerisasi Perusahaan Dagang</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Komputerisasi Perusahaan Dagang</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Komputerisasi_Perusahaan_Dagang"/>
-        <Literal datatypeIRI="&xsd;int">350</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">350</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kue_Lezat_Minim_Alat"/>
-        <Literal datatypeIRI="&xsd;int">33000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">33000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kue_Lezat_Minim_Alat"/>
-        <Literal datatypeIRI="&xsd;string">Kue Lezat Minim Alat</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kue Lezat Minim Alat</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Kue_Lezat_Minim_Alat"/>
-        <Literal datatypeIRI="&xsd;int">100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Matematika_Diskrit"/>
-        <Literal datatypeIRI="&xsd;int">55000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">55000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Matematika_Diskrit"/>
-        <Literal datatypeIRI="&xsd;string">Matematika Diskrit</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Matematika Diskrit</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Matematika_Diskrit"/>
-        <Literal datatypeIRI="&xsd;int">550</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">550</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Menggambar_Mudah_dengan_Pensil"/>
-        <Literal datatypeIRI="&xsd;int">75000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">75000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Menggambar_Mudah_dengan_Pensil"/>
-        <Literal datatypeIRI="&xsd;string">Menggambar Mudah dengan Pensil</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Menggambar Mudah dengan Pensil</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Menggambar_Mudah_dengan_Pensil"/>
-        <Literal datatypeIRI="&xsd;int">135</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">135</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nama"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Michael_Indra"/>
-        <Literal datatypeIRI="&xsd;string">Michael Indra</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Indra</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#My_Little_Monster"/>
-        <Literal datatypeIRI="&xsd;int">20000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#My_Little_Monster"/>
-        <Literal datatypeIRI="&xsd;string">My Little Monster</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">My Little Monster</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#My_Little_Monster"/>
-        <Literal datatypeIRI="&xsd;int">150</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">150</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Notasi_Lagu_Mozart"/>
-        <Literal datatypeIRI="&xsd;int">90000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">90000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Notasi_Lagu_Mozart"/>
-        <Literal datatypeIRI="&xsd;string">Notasi Lagu Mozart</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Notasi Lagu Mozart</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Notasi_Lagu_Mozart"/>
-        <Literal datatypeIRI="&xsd;int">200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <Literal datatypeIRI="&xsd;int">35000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <Literal datatypeIRI="&xsd;string">Oregades</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Oregades</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Oregades"/>
-        <Literal datatypeIRI="&xsd;int">176</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">176</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Ragam_Metode_Mengajarkan"/>
-        <Literal datatypeIRI="&xsd;int">32300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">32300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Ragam_Metode_Mengajarkan"/>
-        <Literal datatypeIRI="&xsd;string">Ragam Metode Mengajarkan</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ragam Metode Mengajarkan</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Ragam_Metode_Mengajarkan"/>
-        <Literal datatypeIRI="&xsd;int">300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia_Cantik_Bintang_Korea"/>
-        <Literal datatypeIRI="&xsd;int">40000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia_Cantik_Bintang_Korea"/>
-        <Literal datatypeIRI="&xsd;string">Rahasia Cantik Bintang Korea</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rahasia Cantik Bintang Korea</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Rahasia_Cantik_Bintang_Korea"/>
-        <Literal datatypeIRI="&xsd;int">129</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">129</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Sila_Ke-6_Sampai_Mati"/>
-        <Literal datatypeIRI="&xsd;int">40000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Sila_Ke-6_Sampai_Mati"/>
-        <Literal datatypeIRI="&xsd;string">Sila Ke-6 Sampai Mati</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sila Ke-6 Sampai Mati</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Sila_Ke-6_Sampai_Mati"/>
-        <Literal datatypeIRI="&xsd;int">100</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Simple_Yoga"/>
-        <Literal datatypeIRI="&xsd;int">40000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Simple_Yoga"/>
-        <Literal datatypeIRI="&xsd;string">Simple Yoga</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Simple Yoga</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Simple_Yoga"/>
-        <Literal datatypeIRI="&xsd;int">300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nama"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Stephanie_Mayer"/>
-        <Literal datatypeIRI="&xsd;string">Stephenie Meyer</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stephenie Meyer</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
-        <Literal datatypeIRI="&xsd;int">75000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">75000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
-        <Literal datatypeIRI="&xsd;string">Twilight</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Twilight</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Twilight"/>
-        <Literal datatypeIRI="&xsd;int">300</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Undang-Undang_Perdagangan_Baru"/>
-        <Literal datatypeIRI="&xsd;int">42000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">42000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Undang-Undang_Perdagangan_Baru"/>
-        <Literal datatypeIRI="&xsd;string">Undang-Undang Perdagangan Baru</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Undang-Undang Perdagangan Baru</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
         <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Undang-Undang_Perdagangan_Baru"/>
-        <Literal datatypeIRI="&xsd;int">500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2.5 Juta Jalan-jalan Ke Jepang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#2.5_Juta_Jalan-jalan_Ke_Jepang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">30 Hari Mahir Merajut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#30_Hari_Mahir_Merajut"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#harga"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#judul"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eo:7 Langkah Jitu Membangun Bisnis Eo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#jumlahHalaman"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#Eo:7_Langkah_Jitu_Membangun_Bisnis_Eo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
     </DataPropertyAssertion>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#dijual"/>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menjual"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#dijual"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#diterbitkan"/>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menerbitkan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#diterbitkan"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#ditulis"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#menulis"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7#diterbitkan"/>
@@ -2772,5 +2762,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.10-SNAPSHOT) http://owlapi.sourceforge.net -->
 
