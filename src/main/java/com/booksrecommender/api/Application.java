@@ -38,7 +38,7 @@ public class Application {
         
         System.out.println("---");
         System.out.println("Buku yang anda sudah baca adalah: "); input = scan.nextLine();
-        bookOntology.saveBook(username, hasilBuku.get(Integer.parseInt(input)).getName());
+        bookOntology.saveBook(username, hasilBuku.get(Integer.parseInt(input)-1).getName());
         
         System.out.println("---");
         List<Buku> rekomendasiBuku = bookOntology.recommend(username);

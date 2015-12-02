@@ -29,6 +29,7 @@ public class OWLAccessor {
     private OWLOntology ontology;
     private OWLDataFactory df;
     private OWLReasoner reasoner;
+    private String example_iri = "http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7";
     
     public OWLAccessor() {
         try {
@@ -44,19 +45,12 @@ public class OWLAccessor {
         }
     }
     
-    public void showClasses() {
-         for (OWLClass cls : ontology.getClassesInSignature()) {
-            System.out.println(cls.toString());
-        }
-    }
-    
     public List<Buku> findBook (String title) {
-        String query = "";
+        String query = "Buku and (judul value \""+ title +"\")";
         return ask(query);
     }
     
     public void saveBook(String username, String name) throws OWLOntologyStorageException {
-        String example_iri = "http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7";
         OWLIndividual user = df.getOWLNamedIndividual(IRI.create(example_iri + "#" + username));
         OWLIndividual bookOwl = df.getOWLNamedIndividual(IRI.create(example_iri + "#" + name));
         OWLObjectProperty hasFather = df.getOWLObjectProperty(IRI.create(example_iri + "#hasRead"));
@@ -78,10 +72,26 @@ public class OWLAccessor {
         List<Buku> books = new ArrayList();
         for (OWLNamedIndividual individual: individuals) {
             String name = shortFormProvider.getShortForm(individual);
-            String judul;
-            int jumlahHalaman;
-            String penulis;
-//            books.add(new Buku(name, judul, jumlahHalaman, penulis));
+            OWLDataProperty propJudul = df.getOWLDataProperty(IRI.create(example_iri + "#judul"));
+            Set<OWLLiteral> juduls = reasoner.getDataPropertyValues(individual, propJudul);
+            String judul = "";
+            for (OWLLiteral j: juduls){
+                judul = j.getLiteral();
+            }
+            
+            OWLDataProperty propHal = df.getOWLDataProperty(IRI.create(example_iri + "#jumlahHalaman"));
+            Set<OWLLiteral> hals = reasoner.getDataPropertyValues(individual, propHal);
+            String jumlahHalaman = "0";
+            for (OWLLiteral h: hals){
+                jumlahHalaman = h.getLiteral();
+            }
+            
+            String penulis = "a";
+            Set<OWLNamedIndividual> penuliss = dlQueryEngine.getInstances("Penulis and menulis some (Buku and (judul value \"" + judul +"\"))", true);
+            for (OWLNamedIndividual i: penuliss) {
+                penulis = shortFormProvider.getShortForm(i);
+            }
+            books.add(new Buku(name, judul, jumlahHalaman, penulis));
         }
         return books;
     }

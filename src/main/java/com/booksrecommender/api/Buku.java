@@ -13,10 +13,10 @@ package com.booksrecommender.api;
 public class Buku {
     private String name;
     private String judul;
-    private int jumlahHalaman;
+    private String jumlahHalaman;
     private String penulis;
     
-    public Buku(String name, String judul, int jumlahHalaman, String penulis) {
+    public Buku(String name, String judul, String jumlahHalaman, String penulis) {
         this.name = name;
         this.judul = judul;
         this.jumlahHalaman = jumlahHalaman;
@@ -35,11 +35,11 @@ public class Buku {
         this.judul = judul;
     }
 
-    public int getJumlahHalaman() {
+    public String getJumlahHalaman() {
         return jumlahHalaman;
     }
 
-    public void setJumlahHalaman(int jumlahHalaman) {
+    public void setJumlahHalaman(String jumlahHalaman) {
         this.jumlahHalaman = jumlahHalaman;
     }
 
