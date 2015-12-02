@@ -7,6 +7,9 @@
 package com.booksrecommender.api;
 import java.util.*;
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 
 /**
  *
@@ -36,7 +39,11 @@ public class Application {
         System.out.println("===========================");
         
         OWLAccessor bookOntology = new OWLAccessor();
-        bookOntology.setObjectPropertyAssertion();
+        try {
+            bookOntology.saveBook("Dammie", "Doraemon");
+        } catch (OWLOntologyStorageException ex) {
+            Logger.getLogger(Application.class.getName()).log(Level.SEVERE, null, ex);
+        }
         bookOntology.showClasses();
     }    
 }

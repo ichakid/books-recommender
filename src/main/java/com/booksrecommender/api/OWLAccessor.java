@@ -41,26 +41,19 @@ public class OWLAccessor {
         }
     }
     
-    public void setObjectPropertyAssertion() throws OWLOntologyStorageException {
+    public void saveBook(String username, String title) throws OWLOntologyStorageException {
         /*System.out.println(ontology.getAnnotationAssertionAxioms());*/
         /*IRI example_iri = manager.getOntologyDocumentIRI(ontology);*/
         String example_iri = "http://www.semanticweb.org/windows/ontologies/2015/10/untitled-ontology-7";
-        OWLIndividual matthew = df.getOWLNamedIndividual(IRI.create(example_iri + "#Jacq"));
-        OWLIndividual peter = df.getOWLNamedIndividual(IRI.create(example_iri + "#Danur"));
+        OWLIndividual user = df.getOWLNamedIndividual(IRI.create(example_iri + "#" + username));
+        OWLIndividual bookOwl = df.getOWLNamedIndividual(IRI.create(example_iri + "#" + title));
         // We need the hasFather property
-        OWLObjectProperty hasFather = df.getOWLObjectProperty(IRI.create(example_iri + "#menulis"));
+        OWLObjectProperty hasFather = df.getOWLObjectProperty(IRI.create(example_iri + "#hasRead"));
         // matthew -> hasFather -> peter
-        OWLObjectPropertyAssertionAxiom assertion = df.getOWLObjectPropertyAssertionAxiom(hasFather, matthew, peter);
+        OWLObjectPropertyAssertionAxiom assertion = df.getOWLObjectPropertyAssertionAxiom(hasFather, user, bookOwl);
         // Finally, add the axiom to outsahr ontology
         AddAxiom addAxiomChange = new AddAxiom(ontology, assertion);
         manager.applyChange(addAxiomChange);
         manager.saveOntology(ontology, IRI.create(new File(pathOWL)));
     }
-    
-//    public void findByTitle(String title) {
-//        OWLClass cls = factory.getOWLClass(":Buku", pm); cls.get
-//        for (OWLIndividual indiv : cls.getIndividuals(ontology)) {
-//            System.out.println(indiv.asOWLNamedIndividual().getIRI().getFragment());
-//        }
-//    }
 }
