@@ -7,13 +7,14 @@
 package com.booksrecommender.api;
 import java.util.*;
 import java.util.Scanner;
+import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 
 /**
  *
  * @author Arina Listyarini DA
  */
 public class Application {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws OWLOntologyStorageException {
         System.out.println("===========================");
         System.out.println("Rekomendasi Buku");
         System.out.println("===========================");
